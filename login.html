@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1,initial-scale=1,user-scalable=no" />
+    <title>登录界面</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/login.css">
+    <script src="./js/jquery-1.9.1.js"></script>
+    <script src="./js/login.js"></script>
+</head>
+<body>
+   <p class="login_title">欢迎登录</p>
+   <img class="login_img" src="./images/01.jpg" alt="">
+   <form action="" method="post">
+       <input class="login_name" type="text" placeholder="邮箱/手机号">
+       <input class="login_pass" type="password" placeholder="密码">
+       <span class="auto_login"><input type="checkbox">下次自动登录</span>
+   </form>
+   <input class="send_message" type="submit" onclick="login()" value="登录">
+   <p class="login_txt">
+       <a class="regist_text" href="regist.html">用户注册</a>
+       <a class="back_text" href="index.html">返回首页</a>
+   </p>
+</body>
+</html>

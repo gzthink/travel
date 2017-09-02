@@ -1,0 +1,41 @@
+body{
+    width:100%;
+    height:100%;
+    background:#26a860;
+}
+.r_form input:not([type='radio']),.r_send_message {
+    width: 80%;
+    font-size: .8em;
+    line-height: 2em;
+    border-radius: 10px;
+    margin: 5% 10%;
+    padding: 2%;
+    outline: none;
+    border:none;
+}
+.r_form>span{
+    color:#fff;
+    font-size:.8em;
+    margin-left:2%;
+}
+
+input[type='radio']{
+    width:15px;
+    height:15px;
+    margin-left:25%;
+}
+.r_send_message{
+    color: #26a860;
+    background: #fff100;
+}
+.ready_text,.back_text{
+    display:block;
+    float:left;
+    width:45%;
+    font-size:1em;
+    text-decoration:none;
+    color:#fff;
+}
+.ready_text{text-align:right; margin-right:5%;}
+.back_text{text-align:left; margin-left:5%;}
+#ad_3v{display:none!important;}

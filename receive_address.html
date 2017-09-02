@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1,initial-scale=1,user-scalable=no" />
+    <title>收货地址页面</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+<div class="user_center div_common">
+    <!--修改收货地址-->
+    <div class="change_block">
+        <div>
+            <div class=" input_block div_common">
+                <label for="">收货人：</label>
+                <input class="name" type="text">
+            </div>
+            <div class=" input_block div_common">
+                <label for="">联系电话：</label>
+                <input class="tel" type="text">
+            </div>
+            <div id="address">
+                <label for="">收货地址：</label>
+                <input class="address_text" type="text">
+            </div>
+            <button class="edit_ok">完成</button>
+        </div>
+    </div>
+    <!--新增收货地址-->
+    <div class="add_block">
+        <div>
+            <div class=" input_block div_common">
+                <label for="">收货人：</label>
+                <input class="name_add" type="text">
+            </div>
+            <div class=" input_block div_common">
+                <label for="">联系电话：</label>
+                <input class="tel_add" type="text">
+            </div>
+            <div id="address_add">
+                <label for="">收货地址：</label>
+                <input class="address_text_add" type="text">
+            </div>
+            <button class="edit_ok_add">完成</button>
+        </div>
+    </div>
+    <!--头部-->
+    <div class="my_top div_common">
+        <a href="my.html"><span class="glyphicon glyphicon-chevron-left"></span></a>
+        <span>收货地址</span>
+    </div>
+    <div class="address_list div_common">
+        <div class="address_block div_common ">
+            <p>
+                <span class="address_name">李四</span>
+                <span class="address_tel">1348290815</span>
+            </p>
+            <p class="address_dis">XX省XX市XX区</p>
+            <div class="address_change">
+                <span class=" edit address_operate glyphicon glyphicon-pencil"></span>
+                <span  class=" delete address_operate glyphicon glyphicon-trash"></span>
+            </div>
+        </div>
+        <!--默认收货地址-->
+        <div class="address_block div_common default_address">
+            <p>
+                <span class="address_name">张三</span>
+                <span class="address_tel">1348290815</span>
+            </p>
+            <p class="address_dis">XX省XX市XX区</p>
+            <div class="address_change">
+                <span  class=" edit address_operate glyphicon glyphicon-pencil"></span>
+                <span  class=" delete address_operate glyphicon glyphicon-trash"></span>
+            </div>
+            <span class="ok">✔</span>
+        </div>
+    </div>
+    <button class="add_address">新增收货地址</button>
+    <!--底部-->
+    <div class="my_footer div_common top_zero">
+        <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="login.html">登录</a></li>
+            <li><a href="#">顶部</a></li>
+        </ul>
+    </div>
+</div>
+<script src="js/jquery-1.9.1.js"></script>
+<script src="js/add_address.js"></script>
+</body>
+</html>
